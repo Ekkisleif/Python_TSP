@@ -27,3 +27,7 @@ Il est aussi intéressant d'installer pip qui est un gestionnaire de librairies 
 ``` sh
 sudo apt install python3-pip
 ```
+Pour ensuit installer une librairie, il suffit de faire une petite commande.
+``` sh
+pip install la_librairie_a_installer
+```
