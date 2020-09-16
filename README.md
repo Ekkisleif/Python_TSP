@@ -7,7 +7,7 @@ Il ne faut bien entendu pas avoir peur à utiliser des lignes de commandes pour 
 ### Utilisation de APT
 Le gestionnaire de *packages* **apt** permet la mise à jour des applications de Ubuntu mais aussi permet d'installer de nombreuses applications (comme vlc,..) qui sont déjà dans les librairies de Ubuntu. Le fonctionnement des packages d'Ubuntu est très proche de celui des application du Google Play Store et de l'Apple Store.
   
-On va donc commencer par la mise à jour de Ubuntu avec 2 commandes (à exécuter dans le terminal de Ubuntu):
+On va donc commencer par la mise à jour de Ubuntu avec 2 commandes (à exécuter dans le terminal de Ubuntu et l'une après l'autre):
 ``` sh
 sudo apt update
 sudo apt upgrade
