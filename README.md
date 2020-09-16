@@ -13,10 +13,11 @@ sudo apt update
 sudo apt upgrade
 ```
 
-**sudo** : permet de se mettre en mode *root* c'est à dire qu'il vous autorise à modifier votre système.  
+**sudo** : permet de se mettre en mode *root* c'est à dire qu'il vous autorise à modifier votre système. (sudo signifie "super-user do", soit "faire en tant que super-utilisateur")  
 **update** : permet de lire les différentes "*librairies*" citées précédemment afin de voir si des *Packages* doivent être mis à jour.  
 **upgrade** : permet de mettre à jour les packages susnommés.  
-#### ATENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous arrêtez la mise à jour Windows au milieu)
+#### ATTENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous arrêtez la mise à jour Windows au milieu)  
+#### ATTENTION², bien penser que seul la commande *sudo apt upgrade* installe les mises à jour, *sudo apt update* ne fait que regarder s'il en existe.
 
 ### Vérification de Python
 Pour vérifier que python est bien installé, il suffit d'exécuter la commande :
@@ -27,7 +28,7 @@ Il est aussi intéressant d'installer pip qui est un gestionnaire de librairies 
 ``` sh
 sudo apt install python3-pip
 ```
-Pour ensuit installer une librairie, il suffit de faire une petite commande.
+Pour ensuite installer une librairie, il suffit de faire une petite commande.
 ``` sh
 pip install la_librairie_a_installer
 ```
