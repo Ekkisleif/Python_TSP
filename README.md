@@ -49,7 +49,7 @@ installer le logiciel sur Linux
 ``` sh
 sudo apt install jupyter
 ```
-Il suffira ensuite de taper dans le terminale : 
+Il suffira ensuite de taper dans le terminal : 
 ``` sh
 jupyter notebook
 ```
