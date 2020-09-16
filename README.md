@@ -17,3 +17,13 @@ sudo apt upgrade
 **update** : permet de lire les différentes "*librairies*" citées précédemment afin de voir si des *Packages* doivent être mis à jour.  
 **upgrade** : permet de mettre à jour les packages susnommés.  
 #### ATENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous arrêtez la mise à jour Windows au milieu)
+
+### Vérification de Python
+Pour vérifier que python est bien installé, il suffit d'exécuter la commande :
+``` sh
+python3 --version
+```
+Il est aussi intéressant d'installer pip qui est un gestionnaire de librairies très utile à Python.
+``` sh
+sudo apt install python3-pip
+```
