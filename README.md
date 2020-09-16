@@ -16,4 +16,4 @@ sudo apt upgrade
 **sudo** : permet de se mettre en mode *root* c'est à dire qu'il vous autorise à modifier votre système.  
 **update** : permet de lire les différentes "*librairies*" citées précédemment afin de voir si des *Packages* doivent être mis à jour.  
 **upgrade** : permet de mettre à jour les packages susnommés.  
-#### ATENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous le faite pendant la mise à jour Windows)
+#### ATENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous arrêtez la mise à jour Windows au milieu)
