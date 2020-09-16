@@ -31,4 +31,9 @@ sudo apt install python3-pip
 Pour ensuite installer une librairie, il suffit de faire une petite commande.
 ``` sh
 pip install la_librairie_a_installer
-```
+```  
+Exemple utile:
+```sh
+pip install numpy
+```  
+#### Note: Si vous avez python3 (ce qui est le cas normalement) la commande n'est pas *pip* mais *pip3* (pip3 install <...>)
