@@ -53,4 +53,16 @@ Il suffira ensuite de taper dans le terminal :
 ``` sh
 jupyter notebook
 ```
+## Pour ceux qui souaitent utiliser JetBrains
+Il suffit d'aller sur ce [lien](https://www.jetbrains.com/shop/eform/students) qui permet aux étudiants d'avoir l'ensemble des logiciels gratuitement. Il faut bien penser à utiliser son mail TSP.  
+Une fois le compte créé, il suffit de taper ces commandes pour installer le logiciel (Rq: taper CTRL+ALT+T pout ouvrir le terminal).
+``` sh
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.18.7455.tar.gz (permet de télécharger l'installateur)
+tar xvf jetbrains-toolbox-1.18.7455.tar.gz
+cd jetbrains-toolbox-1.18.7455/
+sudo chmod +x jetbrains-toolbox
+sudo ./jetbrains-toolbox (en attente de vérification)
+```
+Puis après il suffit de suivre ce qui est à l'écran
+
 
