@@ -40,3 +40,14 @@ pip3 install numpy
 pip3 install matplotlib
 pip3 install scipy
 ```
+## Pour ceux qui souaitent utiliser Notebook Jupiter
+installer la librairy à Python3
+``` sh
+pip3 install jupyter
+```
+installer le logiciel sur Linux
+``` sh
+sudo apt install jupyter
+```
+Il suffira ensuite de taper dans le terminale : **jupyter notebook**
+
