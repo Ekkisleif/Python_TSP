@@ -17,7 +17,7 @@ sudo apt upgrade
 **update** : permet de lire les différentes "*librairies*" citées précédemment afin de voir si des *Packages* doivent être mis à jour.  
 **upgrade** : permet de mettre à jour les packages susnommés.  
 #### ATTENTION, l'arrêt de la commande *sudo apt upgrade* à cause d'un problème de connexion ou autre peut entrainer des problèmes dans Ubuntu (c'est aussi le cas si vous arrêtez la mise à jour Windows au milieu)  
-#### ATTENTION², bien penser que seul la commande *sudo apt upgrade* installe les mises à jour, *sudo apt update* ne fait que regarder s'il en existe.
+#### ATTENTION², bien penser que seule la commande *sudo apt upgrade* installe les mises à jour, *sudo apt update* ne fait que regarder s'il en existe.
 
 ### Vérification de Python
 Pour vérifier que python est bien installé, il suffit d'exécuter la commande :
@@ -34,13 +34,13 @@ pip3 install <la_librairie_a_installer>
 ```  
 Il faut remplacer **<la_librairie_a_installer>** par le nom de la librairy à installer
 #### Note: Il est possible que ce soit la commande pip au lieu de pip3 (ce qui est peu probable car vous devriez avoir tout python3)
-### Installation des librairies utiles pour les cours (rajouts éventuels au cour de l'année)
+### Installation des librairies utiles pour les cours (rajouts éventuels au cours de l'année)
 ``` sh
 pip3 install numpy
 pip3 install matplotlib
 pip3 install scipy
 ```
-## Pour ceux qui souaitent utiliser Notebook Jupiter
+## Pour ceux qui souhaitent utiliser Notebook Jupiter
 installer la librairy à Python3
 ``` sh
 pip3 install jupyter
@@ -53,7 +53,7 @@ Il suffira ensuite de taper dans le terminal :
 ``` sh
 jupyter notebook
 ```
-## Pour ceux qui souaitent utiliser JetBrains
+## Pour ceux qui souhaitent utiliser JetBrains
 Il suffit d'aller sur ce [lien](https://www.jetbrains.com/shop/eform/students) qui permet aux étudiants d'avoir l'ensemble des logiciels gratuitement. Il faut bien penser à utiliser son mail TSP.  
 Une fois le compte créé, il suffit de taper ces commandes pour installer le logiciel (Rq: taper CTRL+ALT+T pout ouvrir le terminal).
 ``` sh
