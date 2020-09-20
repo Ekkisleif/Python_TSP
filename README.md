@@ -61,7 +61,7 @@ wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.18.7455.tar.gz (
 tar xvf jetbrains-toolbox-1.18.7455.tar.gz
 cd jetbrains-toolbox-1.18.7455/
 sudo chmod +x jetbrains-toolbox
-sudo ./jetbrains-toolbox (en attente de vérification)
+./jetbrains-toolbox (en attente de vérification)
 ```
 Puis après il suffit de suivre ce qui est à l'écran
 
