@@ -60,7 +60,7 @@ Une fois le compte créé, il suffit de taper ces commandes pour installer le lo
 wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.18.7455.tar.gz (permet de télécharger l'installateur)
 tar xvf jetbrains-toolbox-1.18.7455.tar.gz
 cd jetbrains-toolbox-1.18.7455/
-sudo chmod +x jetbrains-toolbox
+chmod +x jetbrains-toolbox
 ./jetbrains-toolbox
 ```
 Puis après il suffit de suivre ce qui est à l'écran
